@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+/* 
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+} */
+
+/* media querries */
+@media (min-width: 768px) {
+  body {
+  }
+
+  .page-wrap {
+    background-color: #043873;
+  }
+  
+  .description {
+    width: 768px;
+    height: 580px;
+    top: 66px;
+    padding-top: 140px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    gap: 100px;
+  }
+
+  .details,
+  .project {
+    flex-wrap: wrap;
+    width: 600px;
+    color: white;
+    align-items: center;
+
+    h1 {
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 54px;
+      line-height: 100%;
+      letter-spacing: -2%;
+      text-align: center;
+      width: 728px;
+      height: 130px;
+    }
+
+    p {
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: -2%;
+      text-align: center;
+      width: 728px;
+      height: 60px;
+    }
+  }
+
+  .project-1 {
+    flex-wrap: wrap;
+    width: 600px;
+    align-items: center;
+
+    h1 {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 100%;
+        letter-spacing: -1%;
+        text-align: center;
+        width: 728px;
+        height: 80px;
+      }
+  
+      p {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -2%;
+        text-align: center;
+        width: 728px;
+        height: 60px;
+      }
+  }
+
+  .extension {
+    background-color: #043873;
+  }
+  
+
+  .btn-2 {
+    width: 180px;
+    height: 50px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #4f9cf9;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .image-sec {
+    gap: 10px;
+    padding-right: 82px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 120px;
+  }
+
+  .image-sec img {
+    height: 50vh;
+    width: 60vw;
+  }
+
+  .description-1 {
+    width: 768px;
+    height: 580px;
+    top: 66px;
+    padding-top: 140px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    gap: 100px;
+    color: black;
+  }
+}
