@@ -4,17 +4,27 @@
   box-sizing: 0;
 }
 
-/* 
-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-} */
-
 @media (min-width: 320px) {
   .page-wrap {
     background-color: #043873;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 40%;
+  }
+
+  .header-button {
+    display: none;
+  }
+  .menu {
+    padding: 10px 5px;
+  }
+
+  nav {
+    display: none;
   }
 
   .description {
@@ -22,10 +32,6 @@ header {
     height: 613px;
     top: 56px;
     padding: 16px 20px;
-    /* padding-top: 80px;
-    padding-right: 16px;
-    padding-bottom: 80px;
-    padding-left: 16px; */
     gap: 100px;
   }
 
@@ -164,7 +170,7 @@ header {
   }
 
   .card-detail-2 {
-    width: 289px;
+    width: 245px;
     height: 642px;
     font-family: Inter;
     gap: 25px;
@@ -263,6 +269,93 @@ header {
       width: 288px;
       height: 240px;
     }
+  }
+
+  .sponsor {
+    margin-top: 40px;
+    align-items: center;
+
+    h1 {
+      text-align: center;
+      font-family: Inter;
+      font-size: 2.4rem;
+    }
+  }
+
+  .sponsor-logo img {
+    justify-items: center;
+    height: 190px;
+    width: 250px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+
+  .client-card {
+    width: 320px;
+    height: 894px;
+    top: 8710.52px;
+    padding: 100px 16px;
+    /* padding-top: 100px;
+    padding-right: 16px;
+    padding-bottom: 100px;
+    padding-left: 16px; */
+    gap: 60px;
+
+    h1 {
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      letter-spacing: 0%;
+      text-align: center;
+      width: 288px;
+      height: 104px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .card-2,
+  .card-3 {
+    display: none;
+  }
+
+  .card-1 {
+    width: 288px;
+    height: 458px;
+    gap: 32px;
+    border: 1px solid transparent rgba(0, 0, 0, 0.25);
+
+    p {
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -2%;
+      width: 248px;
+      height: 80px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid black;
+    }
+
+    img {
+      width: 56px;
+      height: 40px;
+      gap: 4px;
+      margin-bottom: 30px;
+    }
+  }
+
+  /* footer */
+  footer {
+    background-color: #043873;
+    color: white;
+  }
+
+  .footer-details {
+    margin-top: 30px;
+    padding: 50px 40px;
   }
 }
 
